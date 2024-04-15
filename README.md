@@ -8,7 +8,7 @@
 ## 目標
 - Minimum Goal:機械学習の可能性を知る
 - Normal Goal:「これ機械学習でいけるんじゃね？」を考えられる土壌を作る
-- Best Goal:機械学習の
+- Best Goal:XXX.
 ### 目次
 - オープニング
 - 座学
