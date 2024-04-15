@@ -54,7 +54,7 @@
 ``` conda activate mlws_env ```
 - "Jupyter lab"と入力して、Enterをクリックする
 - Jupyter Labのブラウザが立ち上がる。
-- 新規ファイルを作成して、セルに"Hello World"と入力して、実行(shiftを押しながらEnterを押す)する。
+- 新規ファイルを作成して、セルに「"Hello World"」と入力して、実行(shiftを押しながらEnterを押す)する。
 - 仮想環境が"mlws_env"が選択されていることを確認する。方法は以下のいずれか。
   1. 新規ファイルを作成する際に Notebook > "mlws_env" をクリック
   2. ファイルを作成後に、右上のカーネルをmlws_envに切り替える。
