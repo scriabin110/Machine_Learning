@@ -71,7 +71,8 @@
 - "Hello World"が出力されれば、本ドキュメントの目標はクリアです。お疲れ様でした！
 
 #### 2. PyCaret(AutoML)用
-機械学習を楽チン実装できるPyCaretを使うための環境構築も行います。
+機械学習を楽チン実装できるPyCaretを使うための環境構築も行います。<br>
+パッケージ管理だけが煩雑なので、
   - 仮想環境"pycaret_env"の構築 (mlws_envとバージョンが異なることに注意して下さい) <br>
     ```conda create -n pycaret_env python=3.8```
   - 構築した仮想環境に入る。<br>
@@ -80,6 +81,10 @@
     内容は"mlws_env"と同じ。<br>
     ```conda install ipykernel ```<br>
     ```ipython kernel install --user --name pycaret_env  ```<br>
-    ```conda install jupyterlab```
-  - 
+    ```conda install jupyterlab```<br>
+  - **PyCaretのパッケージをインストール**<br>
+    ```pip install pycaret```<br>
+    ```conda install -c conda-forge lightgbm```<br>
+    ```conda install numpy=1.21  -c conda-forge```<br>
+    ```conda install scikit-learn=0.23.2  -c conda-forge```<br>
 
