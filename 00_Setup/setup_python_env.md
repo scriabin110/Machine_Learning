@@ -58,7 +58,7 @@
 #### 2. pycaret_env (AutoML用)
 機械学習を楽チン実装できるPyCaretを使うための環境構築も行います。<br>
   - 仮想環境"pycaret_env"の構築 (mlws_envとバージョンが異なることに注意して下さい) <br>
-    ```conda create -n pycaret_env python=3.8```
+    ```conda create -n pycaret_env python=3.10.11```
   - 構築した仮想環境に入る。<br>
     ```conda activate pycaret_env```
   - (pycaret_env)に切り替わっていることを確認して、以下を実行<br>
@@ -68,6 +68,8 @@
     ```conda install jupyterlab```<br>
   - **PyCaretをインストール**<br>
     ```pip install pycaret```<br>
+    ```pip install -r https://raw.githubusercontent.com/pycaret/pycaret/master/requirements.txt```<br>
+    ```pip install joblib==1.3.2```
 
 ### Jupyter labが動くかを確認
 #### 1. mlws_env用
