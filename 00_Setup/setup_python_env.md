@@ -37,7 +37,7 @@
       - conda-forge
   ```
 ### 仮想環境の構築
-#### 1. 『機械学習講座』全般用
+#### 1. 『機械学習講座』全般用 (mlws)
   - 仮想環境"mlws_env"の構築<br>
   ```conda create -n mlws_env python=3.9```
   - 構築した仮想環境が構築できるかを確認<br>
@@ -73,7 +73,7 @@
     ```conda install scikit-learn=0.23.2  -c conda-forge```<br>
 
 ### Jupyter labが動くかを確認
-#### 1. mlws_env
+#### 1. mlws_env用
 - miniconda3から "mlws_env"の仮想環境に入って、Jupyter Labを起動する<br>
 ```conda activate mlws_env ```
 ```jupyter lab```
