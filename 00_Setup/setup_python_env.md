@@ -37,7 +37,7 @@
       - conda-forge
   ```
 ### 仮想環境の構築
-#### 1. 『機械学習講座』全般用 (mlws_env)
+#### 1. mlws_env (『機械学習講座』全般用 )
   - 仮想環境"mlws_env"の構築<br>
   ```conda create -n mlws_env python=3.9```
   - 構築した仮想環境が構築できるかを確認<br>
