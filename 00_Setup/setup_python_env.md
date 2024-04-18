@@ -50,6 +50,8 @@
   ```ipython kernel install --user --name mlws_env  ```
   - Jupyter labのインストール<br>途中でYer/Noを聞かれるので、Yを入力してEnterを押して進める。<br>
   ```conda install jupyterlab```
+  - 必要なライブラリをインストールする
+  ```conda install numpy pandas seaborn matplotlib scikit-learn -y```
 
 #### 2. PyCaret(AutoML)用
 機械学習を楽チン実装できるPyCaretを使うための環境構築も行います。<br>
@@ -62,7 +64,7 @@
     ```conda install ipykernel ```<br>
     ```ipython kernel install --user --name pycaret_env  ```<br>
     ```conda install jupyterlab```<br>
-  - **PyCaretのパッケージをインストール**<br>
+  - **PyCaretで必要になるパッケージをインストール**<br>
     ```pip install pycaret```<br>
     ```conda install -c conda-forge lightgbm```<br>
     ```conda install numpy=1.21  -c conda-forge```<br>
