@@ -72,25 +72,24 @@
     ```conda install numpy=1.21  -c conda-forge```<br>
     ```conda install scikit-learn=0.23.2  -c conda-forge```<br>
 
-
-### Jupyter lab上で"Hello World!"を実行する
-- mlws_envの仮想環境に入る<br>
-``` conda activate mlws_env ```
-- "Jupyter lab"と入力して、Enterをクリックする
+### Jupyter labが動くかを確認
+#### 1. mlws_env
+- miniconda3から "mlws_env"の仮想環境に入って、Jupyter Labを起動する<br>
+```conda activate mlws_env ```
+```jupyter lab```
 - Jupyter Labのブラウザが立ち上がる。
-- 新規ファイルを作成して、セルに「"Hello World"」と入力して、実行(shiftを押しながらEnterを押す)する。
-- 仮想環境が"mlws_env"が選択されていることを確認する。方法は以下のいずれか。
-  1. 新規ファイルを作成する際に Notebook > "mlws_env" をクリック
+- 新規Notebookファイルを作成。以下のいずれかを行い、仮想環境をmlwsに設定。
+  1. ファイル作成の際に Notebook > "mlws_env" をクリック
   2. ファイルを作成後に、右上のカーネルをmlws_envに切り替える。
+- セルに以下を入力して、実行(shift + Enter)する。
+  ```"Hello World"```
 - "Hello World"がOutputされることを確認する。
+- 左上の"File"タブ > "Shut Down" でJupyterLabを終了。
 
-### 必要なライブラリのインストール
-- Anaconda Prompt(miniconda3)を開く。
-- mlws_envの仮想環境に入る<br>
-``` conda activate mlws_env ```
-- 以下のコマンドを実行して、必要なライブラリをインストールする。<br>
-```conda install numpy pandas seaborn matplotlib scikit-learn -y```
+#### 2. pycaret_env
+
+
+
 ## あとがき
 - "Hello World"が出力されれば、本ドキュメントの目標はクリアです。お疲れ様でした！
-
 
