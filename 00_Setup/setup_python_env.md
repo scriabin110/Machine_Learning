@@ -77,9 +77,9 @@
   - 構築した仮想環境に入る。<br>
     ```conda activate pycaret_env```
   - (pycaret_env)に切り替わっていることを確認して、以下を実行<br>
-    内容は"mlws_env"と同じ。
+    内容は"mlws_env"と同じ。<br>
     ```conda install ipykernel ```<br>
-    ```ipython kernel install --user --name pycaret_env  ```
+    ```ipython kernel install --user --name pycaret_env  ```<br>
     ```conda install jupyterlab```
   - 
 
