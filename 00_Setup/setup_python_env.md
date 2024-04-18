@@ -55,7 +55,7 @@
   - 仮想環境"mlws_env"から抜ける<br>
   ```conda deactivate```<br>
 
-#### 2. PyCaret(AutoML)用
+#### 2. pycaret_env (AutoML用)
 機械学習を楽チン実装できるPyCaretを使うための環境構築も行います。<br>
   - 仮想環境"pycaret_env"の構築 (mlws_envとバージョンが異なることに注意して下さい) <br>
     ```conda create -n pycaret_env python=3.8```
