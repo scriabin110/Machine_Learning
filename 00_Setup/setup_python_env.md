@@ -52,6 +52,8 @@
   ```conda install jupyterlab```
   - 必要なライブラリをインストールする<br>
   ```conda install numpy pandas seaborn matplotlib scikit-learn -y```
+  - 仮想環境"mlws_env"から抜ける<br>
+  ```conda deactivate```<br>
 
 #### 2. PyCaret(AutoML)用
 機械学習を楽チン実装できるPyCaretを使うための環境構築も行います。<br>
