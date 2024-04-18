@@ -75,7 +75,7 @@
 ### Jupyter labが動くかを確認
 #### 1. mlws_env用
 - miniconda3から "mlws_env"の仮想環境に入って、Jupyter Labを起動する<br>
-```conda activate mlws_env ```
+```conda activate mlws_env ```<br>
 ```jupyter lab```
 - Jupyter Labのブラウザが立ち上がる。
 - 新規Notebookファイルを作成。以下のいずれかを行い、仮想環境をmlwsに設定。
