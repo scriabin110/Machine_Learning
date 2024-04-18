@@ -81,7 +81,7 @@
 - 新規Notebookファイルを作成。以下のいずれかを行い、仮想環境をmlwsに設定。
   1. ファイル作成の際に Notebook > "mlws_env" をクリック
   2. ファイルを作成後に、右上のカーネルをmlws_envに切り替える。
-- セルに以下を入力して、実行(shift + Enter)する。
+- セルに以下を入力して、実行(shift + Enter)する。<br>
   ```"Hello World"```
 - "Hello World"がOutputされることを確認する。
 - 左上の"File"タブ > "Shut Down" でJupyterLabを終了。
