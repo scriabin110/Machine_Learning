@@ -37,18 +37,19 @@
       - conda-forge
   ```
 ### 仮想環境の構築
-- 仮想環境"mlws_env"の構築<br>
-```conda create -n mlws_env python=3.9```
-- 構築した仮想環境が構築できるかを確認<br>
-``` conda info -e```
-- 構築した仮想環境に入る<br>
-``` conda activate mlws_env```
-- "C:"の前の表記に着目すると、(base)から(mlsw_env)に切り替わっていることが確認できる。
-- (mlsw_env)に切り替わっていることを確認して以下のコマンドを実行する。<br>途中でYer/Noを聞かれるので、Yを入力してEnterを押して進める。<br>
-``` conda install ipykernel ```<br>
-```ipython kernel install --user --name mlws_env  ```
-- Jupyter labのインストール<br>途中でYer/Noを聞かれるので、Yを入力してEnterを押して進める。<br>
-```conda install jupyterlab```
+1. 『機械学習講座』全般用
+  - 仮想環境"mlws_env"の構築<br>
+  ```conda create -n mlws_env python=3.9```
+  - 構築した仮想環境が構築できるかを確認<br>
+  ``` conda info -e```
+  - 構築した仮想環境に入る<br>
+  ``` conda activate mlws_env```
+  - "C:"の前の表記に着目すると、(base)から(mlsw_env)に切り替わっていることが確認できる。
+  - (mlsw_env)に切り替わっていることを確認して以下のコマンドを実行する。<br>途中でYer/Noを聞かれるので、Yを入力してEnterを押して進める。<br>
+  ``` conda install ipykernel ```<br>
+  ```ipython kernel install --user --name mlws_env  ```
+  - Jupyter labのインストール<br>途中でYer/Noを聞かれるので、Yを入力してEnterを押して進める。<br>
+  ```conda install jupyterlab```
 ### Jupyter lab上で"Hello World!"を実行する
 - mlws_envの仮想環境に入る<br>
 ``` conda activate mlws_env ```
