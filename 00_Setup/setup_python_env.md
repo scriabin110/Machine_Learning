@@ -3,7 +3,6 @@
 ## 概要
 - 本ドキュメントは、MinicondaでPythonの実行環境を構築し、Jupyter Lab上で"Hello World"を実行できるまでの手順を紹介します。
 - 専門用語の説明は省きます。とりあえず、手順を踏めば、"Hello World"が実行できるようになります。気になる人は調べてみてください。
-- 加筆test_<font color="#FF0000">赤く表示されます</font>
 
 ## 対象ユーザー
 - 機械学習講座の受講生
@@ -15,11 +14,11 @@
 
 ## 手順
 ### 大きな流れ
-- Minicondaのインストール
-- パッケージレジストリの変更
-- 仮想環境の構築
-- Jupyter lab上で"Hello world"の実行の確認
-- ライブラリのインストール
+  - Minicondaのインストール
+  - パッケージレジストリの変更
+  - 仮想環境の構築
+  - Jupyter lab上で"Hello world"の実行の確認
+  - ライブラリのインストール
 ### インストール
 - [Minicondaのインストーラー](https://docs.conda.io/en/latest/miniconda.html#windows-installers)から、Windows用の`Miniconda3 Windows 64-bit`(Latest version)をインストールする。
 - 基本的にNextをクリックして前に進めるが、「Advanced Installation OptionsConda」では「Register Miniforge3 as my default Python 3.10」にチェックする。
