@@ -50,7 +50,7 @@
   ```ipython kernel install --user --name mlws_env  ```
   - Jupyter labのインストール<br>途中でYer/Noを聞かれるので、Yを入力してEnterを押して進める。<br>
   ```conda install jupyterlab```
-  - 必要なライブラリをインストールする
+  - 必要なライブラリをインストールする<br>
   ```conda install numpy pandas seaborn matplotlib scikit-learn -y```
 
 #### 2. PyCaret(AutoML)用
