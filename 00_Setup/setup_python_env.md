@@ -66,11 +66,8 @@
     ```conda install ipykernel ```<br>
     ```ipython kernel install --user --name pycaret_env  ```<br>
     ```conda install jupyterlab```<br>
-  - **PyCaretで必要になるパッケージをインストール**<br>
+  - **PyCaretをインストール**<br>
     ```pip install pycaret```<br>
-    ```conda install -c conda-forge lightgbm```<br>
-    ```conda install numpy=1.21  -c conda-forge```<br>
-    ```conda install scikit-learn=0.23.2  -c conda-forge```<br>
 
 ### Jupyter labが動くかを確認
 #### 1. mlws_env用
@@ -78,7 +75,7 @@
 ```conda activate mlws_env ```<br>
 ```jupyter lab```
 - Jupyter Labのブラウザが立ち上がる。
-- 新規Notebookファイルを作成。以下のいずれかを行い、仮想環境をmlwsに設定。
+- 新規Notebookファイルを作成。以下のいずれかを行い、仮想環境をmlws_envに設定。
   1. ファイル作成の際に Notebook > "mlws_env" をクリック
   2. ファイルを作成後に、右上のカーネルをmlws_envに切り替える。
 - セルに以下を入力して、実行(shift + Enter)する。<br>
@@ -87,8 +84,12 @@
 - 左上の"File"タブ > "Shut Down" でJupyterLabを終了。
 
 #### 2. pycaret_env用
-
-
+- 仮想環境"pycaret_env"からJupyter Labを起動する<br>
+```conda activate pycaret_env ```<br>
+```jupyter lab```
+- 仮想環境が"pycaret_env"となっていることを確認 (先ほどと同様)
+- セルで以下を実行し、エラーとならないことを確認。<br>
+```import pycaret```
 
 ## あとがき
 - "Hello World"が出力されれば、本ドキュメントの目標はクリアです。お疲れ様でした！
